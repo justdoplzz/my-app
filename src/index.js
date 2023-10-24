@@ -1,15 +1,18 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Library from './chapter03/Library';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
 
+import Clock from './chapter04/Clock';
 
-ReactDOM.render(
-  <React.StrictMode>
-    <Library />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
+
+setInterval(()=>{
+  ReactDOM.render(
+    <React.StrictMode>
+      <Clock />
+    </React.StrictMode>,
+    document.getElementById('root')
+  );
+}, 1000);
 
 reportWebVitals();
