@@ -3,16 +3,14 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
 
-import Clock from './chapter04/Clock';
+import CommentList from './chpater05//CommentList';
 
 
-setInterval(()=>{
-  ReactDOM.render(
-    <React.StrictMode>
-      <Clock />
-    </React.StrictMode>,
-    document.getElementById('root')
-  );
-}, 1000);
+ReactDOM.render(
+  <React.StrictMode>
+    <CommentList />
+  </React.StrictMode>,
+  document.getElementById('root')
+);
 
 reportWebVitals();
