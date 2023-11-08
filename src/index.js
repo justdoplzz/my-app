@@ -1,12 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import ConfirmButton from './chapter08/ConfirmButton';
+import Rendingpage from './chapter09/RendingPage';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <ConfirmButton/>
+    <Rendingpage/>
   </React.StrictMode>,
   document.getElementById('root')
 );
