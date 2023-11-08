@@ -1,15 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import ConfirmButton from './chapter08/ConfirmButton';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
 
-import Accommodate from './chapter07/Accommodate';
-
-
-
 ReactDOM.render(
   <React.StrictMode>
-    <Accommodate />
+    <ConfirmButton/>
   </React.StrictMode>,
   document.getElementById('root')
 );
