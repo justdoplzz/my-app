@@ -1,12 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Rendingpage from './chapter09/RendingPage';
+import AttendanceBook from './chapter10/AttendanceBook';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Rendingpage/>
+    <AttendanceBook/>
   </React.StrictMode>,
   document.getElementById('root')
 );
