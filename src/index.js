@@ -1,12 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import AttendanceBook from './chapter10/AttendanceBook';
+import SignUp from './chapter11/SignUp';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <AttendanceBook/>
+    <SignUp/>
   </React.StrictMode>,
   document.getElementById('root')
 );
